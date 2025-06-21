@@ -1,0 +1,33 @@
+# Training checkpoints (if you recreate them)
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+
+# Model files (excluding those tracked by LFS)
+*.bin
+*.h5
+*.hdf5
+
+# Logs
+*.log
+logs/
+
+# Data files (if they're large)
+*.csv 
